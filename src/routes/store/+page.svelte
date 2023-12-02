@@ -71,7 +71,7 @@
   $: total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
 </script>
 
-<div class="p-10">
+<div class="p-10 text-white">
   <p>Vous avez {cart.length} objets dans votre panier</p>
   <div class="product-list">
     {#each products as product}
